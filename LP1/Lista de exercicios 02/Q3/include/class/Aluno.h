@@ -1,15 +1,24 @@
+/**
+ * @file Aluno.h
+ * @author Paulo Daniel Carvalho de Souza (20220041616)
+ * @brief Definição da classe Aluno e seus métodos.
+ */
 #include <iostream>
 #include <string>
 
 using namespace std;
 
+/**
+ * @class Aluno
+ * @brief Classe que representa um aluno e suas informações.
+ */
 class Aluno{
   private:
-    int matricula;
-    string nome;
-    float nota1;
-    float nota2;
-    float nota3;
+    int matricula; /*< Matrícula do aluno */
+    string nome; /*< Nome do aluno */
+    float nota1; /*< Primeira nota do aluno */
+    float nota2; /*< Segunda nota do aluno */
+    float nota3; /*< Terceira nota do aluno */
   public:
     int getMatricula();
     void setMatricula(int matricula);

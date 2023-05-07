@@ -1,19 +1,23 @@
 /**
- * @author Paulo Daniel Carvalho de Souza (20220041616)
- * @brief Programa para calcular o N-ésimo termo da sequência de tribonacci
- * @since 29/04/2023
- * @date 29/04/2023
+ * @file main.cpp
+ * @author  Paulo Daniel Carvalho de Souza (20220041616)
+ * @brief Arquivo que contém a função principal do programa
+ * @date 2023-04-29
  */
 #include <iostream>
 #include "..\include\class\Turma.h"
 
 using namespace std;
 
+/**
+ * @brief Função principal do programa
+ * @return 0 caso a execução seja bem sucedida
+ */
 int main(){
-  int capacidade = 15;
-  int vagas = 5;
+  int capacidade = 15; /*< Variável que representa a capacidade da turma */
+  int vagas = 5;  /*< Variável que representa o número de vagas na turma */
 
-  Aluno* alunos = new Aluno[vagas]{
+  Aluno* alunos = new Aluno[vagas]{/**< Vetor dinâmico de alunos com informações pré-definidas */
     {1, "Paulo", 7, 7, 7},
     {2, "Daniel", 7.7, 8.6, 6},
     {3, "Pedro", 6, 9.5, 7},
