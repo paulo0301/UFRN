@@ -1,3 +1,5 @@
 *.o
 *.exe
+*.rar
+*.zip
 EDB1/**/input.txt
